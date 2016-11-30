@@ -2,22 +2,22 @@
 // When it works it should render:
 // User: Neil Armstrong has been to 3 places
 
-var user {
+var user = {
   name: {
-    first: 'Neil';
-    last 'Armstrong'
-  }
-  bornOn: new Date('December 12, 1979'),
+    first: 'Neil',
+    last: 'Armstrong'
+  },
+  bornOn: new Date("December 12 1979")
 };
 
-user[occupiation] = 'spaceman';
+user['occupation'] = 'spaceman';
 
 var destinations = [];
 
-destinations.push('Moon', 'Mars 'Jupiter');
+destinations.push('Moon', 'Mars', 'Jupiter');
 
 user.destinations = destinations;
 
-message = 'User: ' + User.name.first + ' ' + user.last + ' has been to ' + user.destination.length + ' places';
+var message = 'User: ' + user.name.first + ' ' + user.name.last + ' has been to ' + destinations.length + ' places';
 
 document.write(message);
